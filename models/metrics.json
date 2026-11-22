@@ -1,0 +1,77 @@
+{
+    "best_model": "Logistic Regression",
+    "scikit_learn_version": "1.9.1",
+    "features": [
+        "cgpa",
+        "internships",
+        "projects",
+        "communication_skills",
+        "aptitude_score",
+        "backlogs",
+        "certifications"
+    ],
+    "target": "placed",
+    "classes": [
+        "No",
+        "Yes"
+    ],
+    "models": {
+        "Logistic Regression": {
+            "accuracy": 0.8767,
+            "precision": 0.9086,
+            "recall": 0.8942,
+            "f1_score": 0.9013,
+            "roc_auc": 0.9573,
+            "cv_f1_mean": 0.92,
+            "cv_f1_std": 0.0174,
+            "confusion_matrix": [
+                [
+                    94,
+                    17
+                ],
+                [
+                    20,
+                    169
+                ]
+            ]
+        },
+        "Decision Tree": {
+            "accuracy": 0.82,
+            "precision": 0.8497,
+            "recall": 0.8677,
+            "f1_score": 0.8586,
+            "roc_auc": 0.8674,
+            "cv_f1_mean": 0.8653,
+            "cv_f1_std": 0.0184,
+            "confusion_matrix": [
+                [
+                    82,
+                    29
+                ],
+                [
+                    25,
+                    164
+                ]
+            ]
+        },
+        "Random Forest": {
+            "accuracy": 0.8633,
+            "precision": 0.8737,
+            "recall": 0.9153,
+            "f1_score": 0.8941,
+            "roc_auc": 0.9229,
+            "cv_f1_mean": 0.8792,
+            "cv_f1_std": 0.0162,
+            "confusion_matrix": [
+                [
+                    86,
+                    25
+                ],
+                [
+                    16,
+                    173
+                ]
+            ]
+        }
+    }
+}

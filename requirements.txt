@@ -1,0 +1,26 @@
+# Core Machine Learning & Data Processing (Pinned to match training & Azure deployment)
+scikit-learn==1.9.1
+pandas>=2.0.0
+numpy>=1.24.0
+joblib>=1.3.0
+
+# Data Visualization & Exploratory Analysis
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Backend Web API Framework
+fastapi>=0.100.0
+uvicorn>=0.23.0
+gunicorn>=21.0.0
+pydantic>=2.0.0
+
+# Frontend Web Application
+streamlit>=1.30.0
+requests>=2.30.0
+
+# Report Generation & Utilities
+python-docx>=1.0.0
+
+# Microsoft Azure Machine Learning SDK v2
+azure-ai-ml>=1.15.0
+azure-identity>=1.15.0

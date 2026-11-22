@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Local & Internal Backups / Temporary Archives
+backup_before_ui_redesign/
+frontend/app_backup.py
+frontend/app.backup_slider_fix.py
+*.zip
+*.tar.gz
+
+# Streamlit Local Secrets & Runtime State
+.streamlit/secrets.toml
+frontend/.streamlit/secrets.toml
+.streamlit/cache/
+
+# Environment Variables & Keys
+.env
+.env.*
+*.env
+*.pem
+*.key
+
+# Azure & Cloud Local Cache
+.azure/
+.azureml/
+azureml_runs/
+.azure-pipelines/
+
+# IDEs & Operating System Artifacts
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db
+desktop.ini
